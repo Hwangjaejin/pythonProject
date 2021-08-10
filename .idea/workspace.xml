@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f01eec0c-9772-4e26-afe8-eb52c2d850c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/alonememo/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alonememo/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hw/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alonememo/meta_prac.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviestar/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviestar/init_db.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviestar/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -48,7 +45,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.app (2)">
+  <component name="RunManager" selected="Python.init_db">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/pythonProject/hw/templates/index.html?_ij_reload" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -96,7 +93,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="init_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,12 +101,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bookreview" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/moviestar" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bookreview/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moviestar/init_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.init_db" />
         <item itemvalue="Python.app (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.meta_prac" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +156,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628561856545</updated>
       <workItem from="1628561858649" duration="4738000" />
-      <workItem from="1628582268557" duration="4108000" />
+      <workItem from="1628582268557" duration="4556000" />
     </task>
     <task id="LOCAL-00001" summary="python project">
       <created>1628562154006</created>
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628563162931</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="나홀로 메모장(GET, POST 기능 추가)">
+      <created>1628586789414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628586789414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,9 +188,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python project" />
     <MESSAGE value="크롤링 조각기능 구현(meta정보 가져오기)" />
-    <option name="LAST_COMMIT_MESSAGE" value="크롤링 조각기능 구현(meta정보 가져오기)" />
+    <MESSAGE value="나홀로 메모장(GET, POST 기능 추가)" />
+    <option name="LAST_COMMIT_MESSAGE" value="나홀로 메모장(GET, POST 기능 추가)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pythonProject$init_db.coverage" NAME="init_db Coverage Results" MODIFIED="1628587199932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/moviestar" />
     <SUITE FILE_PATH="coverage/pythonProject$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1628581877902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alonememo" />
     <SUITE FILE_PATH="coverage/pythonProject$meta_prac.coverage" NAME="meta_prac Coverage Results" MODIFIED="1628563101906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/alonememo" />
     <SUITE FILE_PATH="coverage/pythonProject$app.coverage" NAME="app Coverage Results" MODIFIED="1628562107044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bookreview" />
